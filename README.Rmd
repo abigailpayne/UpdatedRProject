@@ -1,0 +1,36 @@
+---
+title: "README"
+author: "Abigail Payne"
+date: "5/19/2021"
+output: 
+  html_document:
+    theme: yeti
+    highlight: pygments
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### MEEI Clinic X 2018 Study 
+
+This project analyzes a dataset of patient visits to Clinic X at Mass Eye and Ear during 2018. During 2018, the MBTA was affected by a flood that stopped all public transit in the Boston area from May 1st, 2018, to July 31st. The purpose of this study is to investigate the impact of the public transport closure on the attendance of patients at the clinic during as well as after the period of closure. 
+
+### General Information / Data Acquisition 
+
+### Dataset Information
+
+1. Patient visit data, with each row containing:
+    + First Name 
+    + Last Name
+    + Age
+    + Date of the visit
+    + MRN
+    + Gender
+    + Race
+    + Visit status 
+        + Categorized by 3 options: Cancel, Complete, or No Show
+    + Date the visit was scheduled 
+    + Date the visit was canceled, if applicable 
+    + Diagnosis (if completed visit)
+        + ICD-10 code
